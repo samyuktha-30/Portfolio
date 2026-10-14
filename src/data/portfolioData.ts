@@ -49,7 +49,7 @@ export const PORTFOLIO_DATA = {
     location: "Chennai, Tamil Nadu, India",
     github: "https://github.com",
     linkedin: "https://linkedin.com",
-    avatar: "/src/assets/images/samyuktha_photo.jpeg"
+    avatar: "/Portfolio/src/assets/images/samyuktha_photo.jpeg"
   },
 
   stats: [
@@ -137,7 +137,7 @@ export const PORTFOLIO_DATA = {
       ],
       techStack: ["React.js", "Node.js", "Express", "MongoDB", "JWT"],
       statusBadge: "Status: Shipped v1.0",
-      image: "/src/assets/images/project_association_1791949971201.jpg",
+      image: "/Portfolio/src/assets/images/project_association_1791949971201.jpg",
       architectureOverview: "Tiered architectural separation decoupling client React state from Express routing controllers and Mongoose schema models. Enforces JWT token validation middleware on all resident endpoints with automated cron triggers for monthly association maintenance billing invoices.",
       endpoints: [
         { method: "POST", path: "/api/v1/auth/login", desc: "JWT generation with encrypted payload and HTTP-only cookie" },
@@ -165,7 +165,7 @@ export const PORTFOLIO_DATA = {
       ],
       techStack: ["Python", "NASA POWER API", "Data Analytics", "Agmarknet", "NLP Bot"],
       statusBadge: "Multi-API Integration",
-      image: "/src/assets/images/project_agriguru_1791949972044.jpg",
+      image: "/Portfolio/src/assets/images/project_agriguru_1791949972044.jpg",
       architectureOverview: "Aggregates asynchronous telemetry from NASA POWER satellite datasets, parses commodity pricing fluctuations from official Agmarknet mandi endpoints, and generates predictive soil-health models evaluated via multi-variate machine learning heuristics.",
       endpoints: [
         { method: "GET", path: "/api/v1/climate/nasa-power", desc: "Fetches solar radiation, temperature variations, and precipitation trends" },
@@ -192,7 +192,7 @@ export const PORTFOLIO_DATA = {
       ],
       techStack: ["React Native", "Node.js", "Firebase FCM", "REST APIs"],
       statusBadge: "iOS • Android",
-      image: "/src/assets/images/project_assignmate_1791949972821.jpg",
+      image: "/Portfolio/src/assets/images/project_assignmate_1791949972821.jpg",
       architectureOverview: "Cross-platform client compiled with React Native communicating with a lightweight Express backend microservice. Implements local SQLite caching for offline resilience, synchronizing delta updates whenever network connectivity is restored and triggering high-priority FCM push alerts.",
       endpoints: [
         { method: "POST", path: "/api/v1/reminders/register-token", desc: "Registers mobile device FCM token for targeted push notifications" },
